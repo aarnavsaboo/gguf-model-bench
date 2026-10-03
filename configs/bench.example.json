@@ -1,0 +1,16 @@
+{
+  "models": [
+    "models/model-Q4_K_M.gguf",
+    "models/model-Q6_K.gguf"
+  ],
+  "prompt_tokens": [512, 2048, 8192],
+  "generation_tokens": [64, 256],
+  "depth": [0],
+  "batch_size": [512, 2048],
+  "ubatch_size": [256, 512],
+  "cache_k": ["f16"],
+  "cache_v": ["f16"],
+  "threads": [null],
+  "gpu_layers": [-1],
+  "repetitions": 5
+}
